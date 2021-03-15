@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1183369619652482300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183369619652482298}
+  - component: {fileID: 1183369619652482301}
+  - component: {fileID: 6998345470338401799}
+  m_Layer: 0
+  m_Name: BasicLongBoard
+  m_TagString: BoardMaker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1183369619652482298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183369619652482300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1183369619652482301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183369619652482300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4a3f4e88f44648b8330fc2d8e55fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoxX: 25
+  BoxY: 15
+  DistanceBetweenBlocks: 0.64
+  WallLocationsX: 
+  WallLocationsY: 
+  Connections: 4
+  Chance: 1
+  ChanceForStrong: 0.3
+  Direction: 0
+  Condition: 0
+  CenterSpawn: 0
+  CornerStuff: 0
+  WillSpawn: 0
+  SmallDistance: 8
+  MaxDistance: 8
+  SmallDistanceX: 0
+  SmallDistanceY: 0
+  Priority: 0
+  Tiles:
+  - {fileID: 4241291640549013237, guid: 0c1343dda7df2a348a1d8669fd24c732, type: 3}
+  - {fileID: 7453340050555813454, guid: 8bfb361827dc7474087b21981341e12e, type: 3}
+  - {fileID: 4546857160507705132, guid: f812c48b640f6b64e9a128d90958f491, type: 3}
+  - {fileID: 8316337728660959457, guid: e573914bb1c7f4d4aa0fa5c3c86b1125, type: 3}
+  - {fileID: 5906716088355883971, guid: 860d2cc3259dbe14fa2f4615ee0cbe7d, type: 3}
+  - {fileID: 3567290636396180631, guid: fdf3b15a358e25940be7d900c7fc615a, type: 3}
+  CornerTiles:
+  - {fileID: 2175533037747896598, guid: 406988578a6453b418d9d242ad01b379, type: 3}
+  - {fileID: 6004351944818576851, guid: 65161e25f2f56db49941308a1dbb95e4, type: 3}
+  - {fileID: 8190904854316822203, guid: bfa91ef9fe33fac4abacd6c386ce572e, type: 3}
+  - {fileID: 651768462436233850, guid: 2fb205244da37de4688476832e40aa48, type: 3}
+  - {fileID: 8400796892804563758, guid: 6a56ddd39eb700141966e5b8ab61acfc, type: 3}
+  - {fileID: 8400796892804563758, guid: 6a56ddd39eb700141966e5b8ab61acfc, type: 3}
+  - {fileID: 8400796892804563758, guid: 6a56ddd39eb700141966e5b8ab61acfc, type: 3}
+  - {fileID: 8400796892804563758, guid: 6a56ddd39eb700141966e5b8ab61acfc, type: 3}
+  AdaptTiles:
+  - {fileID: 5278252999758552575, guid: 842ac24bc022dff40b344a9c3601219a, type: 3}
+  WallEnvironment:
+  - {fileID: 6699247356125259164, guid: f8524b6068a9a11458fc5a9cdb5d5d18, type: 3}
+  Walls: []
+  Tower: {fileID: 8618760163607437736, guid: 19cd9169d6f6c044dbf6f5bc53bcabbe, type: 3}
+  GameBoard: {fileID: 1183369619652482300}
+  BottomShadow: {fileID: 1035912931604724577, guid: d275ec07e6f78de4191928e32733b82c,
+    type: 3}
+  SpawnEnemyParticle: {fileID: 9164029587528270706, guid: 3814ecda21f94a547a56ec68200a5269,
+    type: 3}
+  UnusedLocations: 00000000
+  SpawnAddOnX: 0.2
+  SpawnAddOnY: 0.2
+  SpawnLocation: 2
+  EnemiesToSpawn:
+  - {fileID: 2412661974696110268, guid: c78d204874840b842af8968d0f2f7f19, type: 3}
+  StronkEnemy: {fileID: 7087081620711775445, guid: b6e842a263d259841b151ea85c91d9cd,
+    type: 3}
+  SpawnLocations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  AmountOfEnemiesMin: 4
+  AmountOfEnemiesMax: 7
+  boardManager: {fileID: 0}
+--- !u!61 &6998345470338401799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183369619652482300}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5319818670334318481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5319818670334318487}
+  - component: {fileID: 5319818670334318480}
+  - component: {fileID: 4080534642524456298}
+  - component: {fileID: 4341715165372278979}
+  m_Layer: 0
+  m_Name: BrickBoardCreator
+  m_TagString: BoardMaker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5319818670334318487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5319818670334318481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5319818670334318480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5319818670334318481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4a3f4e88f44648b8330fc2d8e55fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoxX: 25
+  BoxY: 15
+  DistanceBetweenBlocks: 0.64
+  WallLocationsX: 
+  WallLocationsY: 
+  Connections: 4
+  Chance: 1
+  ChanceForStrong: 0.2
+  Direction: 0
+  Condition: 0
+  CenterSpawn: 0
+  CornerStuff: 0
+  WillSpawn: 0
+  SmallDistance: 8
+  MaxDistance: 8
+  SmallDistanceX: 0
+  SmallDistanceY: 0
+  Priority: 0
+  Tiles:
+  - {fileID: 5228567523227286911, guid: c4f55fd5833ad9148a82130ef0e0e36b, type: 3}
+  - {fileID: 8830975528835119786, guid: 5f2f4fd0ad3c9ff4b8a197708e25d691, type: 3}
+  - {fileID: 5417049281171104326, guid: 83935eaabb50f334b846d427a7a2549e, type: 3}
+  - {fileID: 7862892443115379774, guid: 0c2bf7b35059e324a83ad281de6c47fb, type: 3}
+  - {fileID: 5662109480006249380, guid: 526db3782676f794aa9f4a394af8367a, type: 3}
+  CornerTiles:
+  - {fileID: 4596006154819273933, guid: 786d2250e7a91be48b7c149620ab3d20, type: 3}
+  - {fileID: 4596006154819273933, guid: 786d2250e7a91be48b7c149620ab3d20, type: 3}
+  - {fileID: 4596006154819273933, guid: 786d2250e7a91be48b7c149620ab3d20, type: 3}
+  - {fileID: 4596006154819273933, guid: 786d2250e7a91be48b7c149620ab3d20, type: 3}
+  - {fileID: 1844839315141979015, guid: 3732a1e2c9910734caad761fa9b78229, type: 3}
+  - {fileID: 1844839315141979015, guid: 3732a1e2c9910734caad761fa9b78229, type: 3}
+  - {fileID: 1844839315141979015, guid: 3732a1e2c9910734caad761fa9b78229, type: 3}
+  - {fileID: 1844839315141979015, guid: 3732a1e2c9910734caad761fa9b78229, type: 3}
+  AdaptTiles:
+  - {fileID: 1844839315141979015, guid: 3732a1e2c9910734caad761fa9b78229, type: 3}
+  WallEnvironment:
+  - {fileID: 6699247356125259164, guid: f8524b6068a9a11458fc5a9cdb5d5d18, type: 3}
+  Walls: []
+  Tower: {fileID: 8618760163607437736, guid: 19cd9169d6f6c044dbf6f5bc53bcabbe, type: 3}
+  Decoration: {fileID: 111572571351217580, guid: f2bfe26ad70c15444b0ef37497762110,
+    type: 3}
+  GameBoard: {fileID: 0}
+  BottomShadow: {fileID: 8775993034554419028, guid: 18fe48ed01bed6d4b916b1bcb17666f5,
+    type: 3}
+  SpawnEnemyParticle: {fileID: 9164029587528270706, guid: 3814ecda21f94a547a56ec68200a5269,
+    type: 3}
+  UnusedLocations: 00000000
+  SpawnAddOnX: 0.2
+  SpawnAddOnY: 0.2
+  SpawnLocation: 2
+  DecorationChance: 0.05
+  EnemiesToSpawn:
+  - {fileID: 694513736158791540, guid: 9d52abe2541e1ac49b239d6e0626e0bb, type: 3}
+  - {fileID: 245795395926227021, guid: 8326f9c8b4881674ebaee9c80a1a3e68, type: 3}
+  - {fileID: 8192570139647200097, guid: d87631957b225da47b930aa6f86421ec, type: 3}
+  StronkEnemy: {fileID: 4853134283168822268, guid: 0093c82de31d1cd44b20729339ba51bf,
+    type: 3}
+  SpawnLocations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  AmountOfEnemiesMin: 6
+  AmountOfEnemiesMax: 14
+  boardManager: {fileID: 0}
+--- !u!61 &4080534642524456298
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5319818670334318481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &4341715165372278979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5319818670334318481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e5948e8c32cb449839248e4bbd44c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max: 2
+  Min: 8
+  DistanceBetween: 16
+  ChanceToSpawn: 0
+  PathWayWidth: 2
+  PathWay: {fileID: 2798141324955206359, guid: dc414f94b26db254e966e89383a1a322, type: 3}
+  Boards:
+  - {fileID: 5318402271949804036, guid: a75a964d9befd9b4483b00752280a82c, type: 3}
+  BoardsSpawnLocations:
+  - {x: -12, y: 12, z: 0}
+  - {x: 12, y: 12, z: 0}
+  - {x: -12, y: -12, z: 0}
+  - {x: 12, y: -12, z: 0}
+  BoardsSpawnAddon: {x: 12, y: 3}
+  MultiplierMin: 1.2
+  MultiplierMax: 1.4
+  SpawnUsed: 00000000
+  AllLocation: []

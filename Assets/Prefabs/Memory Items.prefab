@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5657595341749308697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5657595341749308699}
+  - component: {fileID: 5657595341749308696}
+  - component: {fileID: 5657595341749308698}
+  m_Layer: 0
+  m_Name: Memory Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5657595341749308699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5657595341749308697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5657595341749308696
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5657595341749308697}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: -2218136891106347475, guid: ddedd3731ea4d2b429540dd10c84164c,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &5657595341749308698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5657595341749308697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36c2209b0bc09c469b64d34678a00da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemType:
+  - {fileID: -2218136891106347475, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: 6418368443859720278, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -7293855273849205789, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -315527948482054458, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: 5687113549515202846, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -4923705984106926151, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: 5421152264206590126, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -433981798548782635, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -5434374165534050170, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -279906517993966238, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  - {fileID: -4919247742797734027, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  LostMemory:
+  - {fileID: 2373183141213679312, guid: 09bbe24717d0e0641907f72f26d93089, type: 3}
+  - {fileID: 2692668872550476181, guid: 09bbe24717d0e0641907f72f26d93089, type: 3}
+  - {fileID: -7693382868939088697, guid: 09bbe24717d0e0641907f72f26d93089, type: 3}
+  - {fileID: -4919247742797734027, guid: ddedd3731ea4d2b429540dd10c84164c, type: 3}
+  Names:
+  - Fallen Teeth
+  - Old Sneakers
+  - Tennis Ball
+  - Water Bottle
+  - Kitchen Knife
+  - Notebook
+  - MP3 Player
+  - Coin
+  - Homemade Pie
+  - Fresh Bread
+  - Unknown
+  - Unknown
+  purpose:
+  - Increased Regeneration
+  - Increased Movement
+  - A New Attack
+  - Increased Ammo&Reload
+  - Increased Damage
+  - Increased Item Drop
+  - A New Attack
+  - Increased Defence
+  - Healed to Max Health
+  - Increased Health
+  - Useless Memory
+  - Useless Memory
+  Story:
+  - moreDetails:
+    - 'She was there to help get it out  '
+    - 'She wished for me to never grow up '
+  - moreDetails:
+    - 'She would always clean it for me  '
+    - 'She would let me wear it all the time  '
+  - moreDetails:
+    - 'We would play ball together all the time '
+    - 'She was proud of my throws  '
+  - moreDetails:
+    - 'She provided everything I needed  '
+    - 'She gave me more than I needed '
+  - moreDetails:
+    - 'Her cooking skills were killer  '
+  - moreDetails:
+    - 'She knew all my secrets '
+  - moreDetails:
+    - 'Music made my surroundings safer '
+  - moreDetails:
+    - 'Money was the protection of the house '
+  - moreDetails:
+    - 'Her food could heal more than the soul '
+  - moreDetails:
+    - 'Her food could heal more than the soul '
+  - moreDetails:
+    - 'The memory has been too far lost '
+  - moreDetails:
+    - 'The memory has been too far lost '
+  Value: 9
+  Distance: 0.5
+  ChanceOfItem: 0
+  AudioPlay: {fileID: 6903799697267820942, guid: 402babd6383302242bbaa7a8771c64f0,
+    type: 3}

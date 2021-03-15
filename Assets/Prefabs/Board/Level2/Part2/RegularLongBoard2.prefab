@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &92538435426525221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92538435426525225}
+  - component: {fileID: 92538435426525226}
+  - component: {fileID: 92538435426525227}
+  m_Layer: 0
+  m_Name: RegularLongBoard2
+  m_TagString: BoardMaker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &92538435426525225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92538435426525221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &92538435426525226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92538435426525221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4a3f4e88f44648b8330fc2d8e55fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoxX: 25
+  BoxY: 15
+  DistanceBetweenBlocks: 0.64
+  WallLocationsX: 
+  WallLocationsY: 
+  Connections: 4
+  Chance: 1
+  ChanceForStrong: 0.23
+  Direction: 0
+  Condition: 0
+  CenterSpawn: 0
+  CornerStuff: 0
+  WillSpawn: 0
+  SmallDistance: 8
+  MaxDistance: 8
+  SmallDistanceX: 0
+  SmallDistanceY: 0
+  Priority: 0
+  Tiles:
+  - {fileID: 509070414562125259, guid: ef46829fa4afaed4cb0253dabfd016e1, type: 3}
+  - {fileID: 6537874948241435312, guid: 8b88699530df9554bac3a91e36d89af6, type: 3}
+  - {fileID: 1435735616637714827, guid: 2f865c5b43c696245941dab0af4febbc, type: 3}
+  - {fileID: 17265039324224463, guid: 625d3ec38784c134b93740ea52aa7c82, type: 3}
+  - {fileID: 7020582599584304510, guid: 66fe7e6174153bc4680a3a4dbdaf2a7b, type: 3}
+  - {fileID: 6271728176036347810, guid: f2b9368360c980b4aa90406c675ba7c7, type: 3}
+  CornerTiles:
+  - {fileID: 2493874203941656549, guid: 325efcc13b3ccf340ac4ecb009a61a30, type: 3}
+  - {fileID: 2615498572311072114, guid: 925c258a31dbc60418bb7b07e57b6a8b, type: 3}
+  - {fileID: 973637237332968375, guid: 1879bf9f6f67c5d4485f69b8ce183da8, type: 3}
+  - {fileID: 380709793106701643, guid: a5935c08f1f52944bb8e9b24d0c3b428, type: 3}
+  - {fileID: 3317372521532094562, guid: cc34b34eff4e3b9439185f7668583bc7, type: 3}
+  - {fileID: 1336260431692465683, guid: e53bad5a51f8bd346985d566d14387ad, type: 3}
+  - {fileID: 7393306056593724763, guid: ac7363f9c7b8aec4b8156ba88e437e35, type: 3}
+  - {fileID: 5724932845420727520, guid: 4a805ffdb33fa1b458186170f22442e7, type: 3}
+  AdaptTiles:
+  - {fileID: 5278252999758552575, guid: 842ac24bc022dff40b344a9c3601219a, type: 3}
+  WallEnvironment:
+  - {fileID: 6699247356125259164, guid: f8524b6068a9a11458fc5a9cdb5d5d18, type: 3}
+  Walls: []
+  Tower: {fileID: 8618760163607437736, guid: 19cd9169d6f6c044dbf6f5bc53bcabbe, type: 3}
+  Decoration: {fileID: 0}
+  GameBoard: {fileID: 0}
+  BottomShadow: {fileID: 9169205353090799947, guid: b10270e58da11bf479e43dd3ab9a45a3,
+    type: 3}
+  SpawnEnemyParticle: {fileID: 9164029587528270706, guid: 3814ecda21f94a547a56ec68200a5269,
+    type: 3}
+  UnusedLocations: 00000000
+  SpawnAddOnX: 0.2
+  SpawnAddOnY: 0.2
+  SpawnLocation: 2
+  DecorationChance: 0
+  EnemiesToSpawn:
+  - {fileID: 245795395926227021, guid: 8326f9c8b4881674ebaee9c80a1a3e68, type: 3}
+  - {fileID: 8192570139647200097, guid: d87631957b225da47b930aa6f86421ec, type: 3}
+  - {fileID: 7087081620711775445, guid: b6e842a263d259841b151ea85c91d9cd, type: 3}
+  StronkEnemy: {fileID: 694513736158791540, guid: 9d52abe2541e1ac49b239d6e0626e0bb,
+    type: 3}
+  SpawnLocations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  AmountOfEnemiesMin: 8
+  AmountOfEnemiesMax: 15
+  boardManager: {fileID: 0}
+--- !u!61 &92538435426525227
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92538435426525221}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
